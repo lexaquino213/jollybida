@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.html</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>JOLLIBEE</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#Homepage" class="w3-bar-item w3-button">Homepage </a>
+      <a href="#about page" class="w3-bar-item w3-button">About page</a>
+      <a href="#Product/Menu" class="w3-bar-item w3-button">Product/Menu</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="image/Jolly.jpeg" alt="Bringing joy to you" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ORDER NOW</b></span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+  </div>
+</header>
+
+<!-- HOMEPAGE content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- HOMEPAGE content -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Exclusive Promos</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="image/Jollibee_JKP-Announcement-min-819x1024.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="image/JBPH-JOLLYWEEN-TREATS-DIGIPOST-4X5-min-819x1024 (1).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    
+  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="image/Jollibee_JKP-Announcement-min-819x1024.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="image/JBPH-JOLLYWEEN-TREATS-DIGIPOST-4X5-min-819x1024 (1).jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+   
+
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Jollibee is the largest fast food chain brand in the Philippines, operating a network of more than 1,500 stores in 17 countries. A dominant market leader in the Philippines, Jollibee enjoys the lion’s share of the local market that is more than all the other multinational fast food brands in PH combined. With a strict adherence to the highest standards of food quality, service and cleanliness, Jollibee serves great-tasting, high-quality and affordable food products to include its superior-tasting Chickenjoy, mouth-watering Yumburger, and deliciously satisfying Jolly Spaghetti among other delicious products.
+
+        Jollibee has embarked on an aggressive international expansion plan, with more than 270 international branches in the United States, Canada, Hong Kong, Macau, Brunei, Vietnam, Singapore, Malaysia, Saudi Arabia, United Arab Emirates, Qatar, Oman, Kuwait, Bahrain, Italy, Spain, and in the United Kingdom
+    </p>
+  </div>
+
+
+  <!-- Product/Menu -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">PRODUCT MENU</h3>
+  </div>
+
+  
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="image/Jollibee-Chicken.jpeg" alt="John" style="width:100%">
+      <h3>Crispy Chicken Joy</h3>
+      <p class="w3-opacity">1 pc chicken Solo</p>
+      <p>₱82</p>
+      <p class="w3-opacity">6 pcs bucket</p>
+      <p>₱449</p>
+      
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="image/Jolly Spaghetti.jpg" alt="Jane" style="width:100%">
+      <h3>Jolly Spaghetti</h3>
+      <p class="w3-opacity">Solo</p>
+      <p>₱60</p>
+      <p class="w3-opacity">With Drinks</p>
+      <p>₱97</p>
+      
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="image/Yumburger.jpg" alt="Mike" style="width:100%">
+      <h3>Chessy Burger</h3>
+      <p class="w3-opacity">Solo</p>
+      <p>₱60</p>
+      <p class="w3-opacity">With Drinks</p>
+      <p>₱98</p>
+     
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="image/jolly fries.jpg" alt="Dan" style="width:100%">
+      <h3>Jolly Fries</h3>
+      <p class="w3-opacity">Regular</p>
+      <p>₱50</p>
+      <p class="w3-opacity">Jumbo</p>
+      <p>₱162</p>
+     
+    </div>
+  </div>
+
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="image/jolly2.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by JOLLIBEE CORP.</a></p>
+</footer>
+
+</body>
+</html>
